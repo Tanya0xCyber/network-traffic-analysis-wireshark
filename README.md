@@ -18,18 +18,11 @@ If not already installed:
 sudo apt install wireshark -y
 ````
 
-Allow non-root users to capture packets:
-
-```bash
-sudo usermod -aG wireshark $USER
-```
-
-Then restart your system.
 
 **Screenshot 1:** Installation and configuration of Wireshark
 
 <p align="center">
-  <img src="screenshots/install.png" width="80%">
+  <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark-install.png" width="80%">
 </p>
 
 ---
@@ -43,7 +36,7 @@ Then restart your system.
 **Screenshot 2:** Wireshark capture started
 
 <p align="center">
-  <img src="screenshots/start-capture.png" width="80%">
+  <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark_interface.png" width="80%">
 </p>
 
 ---
