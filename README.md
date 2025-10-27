@@ -19,7 +19,7 @@ sudo apt install wireshark -y
 ````
 
 
-**Screenshot 1:** Installation and configuration of Wireshark
+**Screenshot 1:**
 
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark-install.png" width="80%">
@@ -33,7 +33,7 @@ sudo apt install wireshark -y
 2. Select your **active network interface** (usually `eth0`, `wlan0`, or similar).
 3. Click **Start Capturing** (the blue shark fin icon).
 
-**Screenshot 2:** Wireshark capture started
+**Screenshot 2:**
 
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark_interface.png" width="80%">
@@ -72,7 +72,7 @@ curl http://example.com
 **Screenshot 3:** Commands used to generate traffic
 
 <p align="center">
-  <img src="screenshots/traffic-generation.png" width="80%">
+  <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark-cmds.png" width="80%">
 </p>
 
 ---
@@ -84,7 +84,7 @@ After running the commands for 1–2 minutes, click the **red stop button** in W
 **Screenshot 4:** Capture stopped
 
 <p align="center">
-  <img src="screenshots/stop-capture.png" width="80%">
+  <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark-capture.png" width="80%">
 </p>
 
 ---
@@ -100,10 +100,10 @@ Use filters in Wireshark to view specific protocols:
 | TCP      | `tcp`          | Transport layer connections |
 | HTTP     | `http`         | Web traffic                 |
 
-**Screenshot 5:** Protocol filters applied in Wireshark
+**Screenshot 5:** Protocol filters applied in Wireshark 
 
 <p align="center">
-  <img src="screenshots/protocol-filters.png" width="80%">
+  <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark-protocols-filters.png" width="80%">
 </p>
 
 ---
@@ -113,13 +113,13 @@ Use filters in Wireshark to view specific protocols:
 Export your capture file as:
 
 ```
-File → Save As → traffic-analysis.pcap
+File → Save As → wireshark.pcap
 ```
 
 **Screenshot 6:** Exporting `.pcap` file
 
 <p align="center">
-  <img src="screenshots/export-pcap.png" width="80%">
+  <img src="https://github.com/Tanya0xCyber/network-traffic-analysis-wireshark/blob/main/screenshots/wireshark-export-pca.png" width="80%">
 </p>
 
 ---
@@ -133,25 +133,4 @@ File → Save As → traffic-analysis.pcap
 | **TCP**  | Establishes reliable connections between systems. | Used when accessing websites                      |
 | **HTTP** | Application layer protocol for web traffic.       | `curl http://example.com`                         |
 
-**Screenshot 7:** Example captured ICMP packets
 
-<p align="center">
-  <img src="screenshots/icmp-example.png" width="80%">
-</p>
-
----
-
-### Outcome:
-
-* Successfully captured live packets for **ICMP**, **DNS**, **TCP**, and **HTTP** protocols.
-* Gained practical knowledge of how different types of traffic look in Wireshark.
-* Exported `.pcap` file for further analysis.
-
----
-
-### Deliverables
-
-* `traffic-analysis.pcap` – packet capture file
-* `README.md` – task documentation with screenshots and explanation
-
----
